@@ -22,6 +22,7 @@ body{
     color: #F9FAF8;
 }
 
+    /* Background color for header and footer */
 .hero-section, .header-section, .footer-section{
     background-color: #1F2937;
 }
@@ -51,6 +52,7 @@ ul{
     font-size: 18px;
 }
 
+    /* Button style for all classes with button */
 button{
     background-color: #3882F6; 
     border-style: solid;
@@ -63,11 +65,12 @@ button{
     
 }
 
+    /* Set border style and color in illustration */
 .subtext .illus{
     border: solid;
     border-color: #3882F6;
 }
-
+    /* Border style for all classes with border */
 .border{
     border-radius: 20px;
 }
@@ -206,6 +209,18 @@ button{
     margin-bottom: 100px;
 }
 
+
+.footer-section .container{
+    display: flex;
+    justify-content: center;
+    padding: 30px 10px;
+    
+    
+}
+
+.footer-section .copy-symbol{
+    padding: 2px 5px;
+}
 
 
 
